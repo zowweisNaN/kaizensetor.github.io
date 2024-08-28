@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    text-align: center ;
+    color: aliceblue;
+
+}
+.tablemantap{
+    border-collapse: collapse;
+    position: relative;
+    margin: auto; 
+    background-color: rgb(36, 35, 49); 
+    top: 20px;
+}
+.tablemantap td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+td:hover {
+    background-color: darkslategrey;
+}
+
+.tabel-jawa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+
+}
+.kuwontol {
+    display: flex;
+    flex-direction: column;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.foto-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto-container-2{
+    display: flex;
+    flex-direction: row;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px;
+    color: black;
+}
+.foto button{
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+.foto img:hover{
+    filter: brightness(50%);
+    transition: 0.5s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.foto-tabel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 30px;
+    width: 500px;
+}
+.kuwontol img{
+    justify-content: center;
+}
